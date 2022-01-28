@@ -81,7 +81,7 @@ b, strong {
 }
 
 .custom-btn {
-  background: #eee;
+  background: #eeeeee;
   color: #5b5b5b;
   font-weight: bold;
   border-radius: 50px;
@@ -120,7 +120,19 @@ b, strong {
 .animated-item {
   color: #ffc200;
 }
-
+.carousel-text {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  background: #eeeeee;
+  color: #5b5b5b;
+  border-radius: 10px;
+  padding: 0px 20px;
+}
+.carousel-text p{
+  padding-left: 2px;
+  font-weight: bold;
+}
 .animated-item {
   font-size: 28px;
   line-height: inherit;
@@ -403,6 +415,7 @@ b, strong {
   color: #ffc200;
 }
 .owl-theme .owl-dots .owl-dot {
+  margin-top: 10px;
   outline: none;
 }
 .owl-theme .owl-dots .owl-dot span {
